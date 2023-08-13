@@ -1,0 +1,17 @@
+.home-src-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0.1vh solid black;
+    padding: 10vh 10vw 10vh 10vw;
+    /* align-items: center;  */
+
+}
+.home-src-cont-grid{
+    width: 80vw;
+}
+.home-src-cont-content{
+    width: 80vw;
+    height: 50vh;
+    border: 0.1vh solid gray;
+}

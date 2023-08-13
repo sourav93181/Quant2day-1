@@ -1,0 +1,34 @@
+.hdr-comp-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.1vh solid rgb(228, 41, 41);
+    background-color: black;
+    height: 6.5vh;
+    color:white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    cursor: pointer;
+    /* position: sticky;
+   top: 0;
+   z-index: 100; */
+}
+.hdr-comp-cont-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    border: 0.1vh solid black;
+    width: 50vw;
+    gap:1vw;
+}
+.hdr-comp-cont-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    border: 0.1vh solid black;   
+    width: 50vw;
+    gap:1vw;
+}

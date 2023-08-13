@@ -1,0 +1,19 @@
+.footer-img1{
+    height: 10vh;
+    width: 10vw;
+
+}
+.foot-comp-cont{
+    border: 0.1vh solid black;
+    height: 36vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2vw
+}
+.border1{
+    border: 0.1vh solid black;
+    height: 24vh;
+    width: 24vw;
+}

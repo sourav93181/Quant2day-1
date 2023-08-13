@@ -1,0 +1,18 @@
+.blog-cont{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid black;
+}
+.blog-card-cont{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid black;
+}
+.img{
+    height: 20vh;
+    width: fit-content;
+}

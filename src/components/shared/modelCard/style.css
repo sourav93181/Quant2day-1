@@ -1,0 +1,28 @@
+.Model-comp-cont{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    border: 0.1vh solid red;
+    height: 12vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.Model-comp-cont-line{
+    width: 100%;
+    height: 1vh;
+    background-color: black;
+}.Model-comp-cont-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Model-comp-cont-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Model-comp-cont-img-1{
+    width: 3vw;
+    height: 5vh;
+}
