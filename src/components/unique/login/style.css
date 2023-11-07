@@ -1,0 +1,67 @@
+.Form-Container {
+  height: 65vh;
+  width: 26vw;
+  background-color: white;
+  border: 0.2vh solid grey;
+  border-radius: 2vh;
+  margin: 3vh auto 3vh auto;
+  padding: 1vh 1vh 1vh 1vh;
+  box-shadow: 0 0 10px gray;
+}
+.Field-Header{
+  font-size: 2vw;
+  font-weight: 545;
+}
+.Form-Fields {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  margin: 1vw;
+  padding: 1vw;
+  
+}
+
+.Field-Cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.Field-Label {
+  font-size: 1.2vw;
+  font-weight: 400;
+  margin-bottom: 1vh;
+}
+
+.Field-Textbox {
+  height: 6vh;
+  border-radius: 1vh;
+  padding: 0.5vh 1vw;
+  border: 0.2vh solid #e1e1e1;
+  width: 20vw;
+}
+.Field-Textbox:focus, textarea:focus{
+box-shadow: 0 0 7px rgb(231, 177, 76);
+}
+
+.Field-Textbox:focus {
+  outline: none;
+}
+
+.Field-Buttonbox {
+  height: 6vh;
+  font-size: 1.2vw;
+  font-weight: 500;
+  border-radius: 0.8vh;
+  color: black;
+  border: 0.2vh solid #070708;
+  width: 22vw;
+  background-color: rgb(231, 177, 76);
+  color:rgb(12, 12, 12);
+  cursor: pointer;
+}
+.Field-Buttonbox:hover {
+  background-color: rgb(235, 170, 49);
+}
+.Field-Policy{
+  font-size: 1vw;
+}

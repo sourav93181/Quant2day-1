@@ -1,0 +1,12 @@
+.SignupScr-Cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1vh;
+    
+}
+.SignupScr-Header{
+    font-size: 3vw;
+    font-weight: 700;
+    cursor: pointer;
+}

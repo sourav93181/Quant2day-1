@@ -1,0 +1,38 @@
+.SigninScr-Cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1vh;
+    
+}
+.SigninScr-Header{
+    font-size: 3vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+.SigninScr-Button{
+    border: 0.1vh solid gray;
+}
+.SigninScr-New{
+    margin-bottom: 1vh;
+    color: rgb(88, 88, 88);
+}
+.SigninScr-Button{
+    height: 4.6vh;
+  font-size: 1.2vw;
+  font-weight: 500;
+  border-radius: 0.8vh;
+  color: black;
+  border: 0.2vh solid #070708;
+  width: 22vw;
+  background-color: rgb(231, 177, 76);
+  color:rgb(12, 12, 12);
+  cursor: pointer;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+.SigninScr-Button:hover {
+  background-color: rgb(235, 170, 49);
+}

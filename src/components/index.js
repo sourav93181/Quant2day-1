@@ -10,3 +10,5 @@ export { default as TopMomemtSecComp } from "../components/unique/topMomemtumSec
 export { default as TopPromBuyComp} from "../components/unique/topPromoterBuyingStock";
 export { default as TopRelStrComp } from "../components/unique/topRelStrStock";
 export { default as VolSocComp} from "../components/unique/volSocker";
+export { default as SigninCom } from "../components/unique/login";
+export { default as SignupCom } from "../components/unique/signup";
